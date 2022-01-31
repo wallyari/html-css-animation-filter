@@ -65,7 +65,7 @@
     border-radius: 5%;
 }
 
-/* Ex 8 */ 
+/* Ex 9 */ 
 .ex-9-img {
     transition: all 2s;
 }
@@ -73,4 +73,14 @@
     filter: grayscale(0.5) sepia(0.5);
     border-radius: 5%;
     transform: scale(1.5);
+}
+/* Ex 10 */ 
+.ex-10-icon {
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+from {
+transform: rotate(360deg);
+ }
 }
