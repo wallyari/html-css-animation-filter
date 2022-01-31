@@ -40,3 +40,11 @@
 .ex-5-square:active {
     transform: scale(0.5);
 }
+
+/* Ex 6 */ 
+.ex-6-img {
+    transition: filter 2s;
+}
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
